@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 580" width="100%" height="100%">
+  <defs>
+    <!-- تدرج أخضر غابي داكن متوافق مع هوية المنصة -->
+    <linearGradient id="craftForest" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. نصف الدماغ الأيسر -->
+  <path fill="url(#craftForest)" d="
+    M 235,50 
+    C 200,45 175,65 168,92
+    C 135,90 102,118 100,155
+    C 75,175 72,215 90,245
+    C 75,275 85,315 115,340
+    C 145,365 190,365 215,355
+    C 228,350 235,340 235,330
+    Z
+  "/>
+
+  <!-- 2. نصف الدماغ الأيمن المتناظر -->
+  <path fill="url(#craftForest)" d="
+    M 265,50 
+    C 300,45 325,65 332,92
+    C 365,90 398,118 400,155
+    C 425,175 428,215 410,245
+    C 425,275 415,315 385,340
+    C 355,365 310,365 285,355
+    C 272,350 265,340 265,330
+    Z
+  "/>
+
+  <!-- 3. مسارات الدارات الإلكترونية البيضاء -->
+  <!-- النصف الأيسر -->
+  <path d="M 235,115 L 180,115 L 180,165" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="180" cy="165" r="14" fill="#FFFFFF" />
+
+  <path d="M 235,275 L 170,275 L 170,230" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="170" cy="230" r="14" fill="#FFFFFF" />
+
+  <!-- النصف الأيمن -->
+  <path d="M 265,115 L 320,115 L 320,165" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="320" cy="165" r="14" fill="#FFFFFF" />
+
+  <path d="M 265,275 L 330,275 L 330,230" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="330" cy="230" r="14" fill="#FFFFFF" />
+
+  <!-- 4. خط اسم الموقع باللون الأخضر الغابي الداكن -->
+  <text 
+    x="250" 
+    y="490" 
+    text-anchor="middle" 
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Arial Black', sans-serif" 
+    font-size="82" 
+    font-weight="900" 
+    letter-spacing="0.5"
+    fill="url(#craftForest)">
+    CodeCraft
+  </text>
+</svg>
